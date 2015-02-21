@@ -35,7 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 ##
 #The second function, cacheSolve, first checks to see if the inverted matrix has aleady
-#been cached, and if so it returns it.  If it hasn't already been cache, then the function
+#been cached, and if so it returns it.  If it hasn't already been cached, then the function
 #will get the matrix, compute its inverse using solve, and will cache the result.
 
 cacheSolve <- function(x, ...) {
